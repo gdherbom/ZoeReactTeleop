@@ -143,7 +143,7 @@ const App = () => {
   const onHoldingForwardPress = () => {
     timer = setInterval(() => {
       console.log('F');
-      Goto(acceleratorcursor, setSteeringCursor);
+      Goto(acceleratorcursor, steeringcursor);
     }, 1000);
   };
 
